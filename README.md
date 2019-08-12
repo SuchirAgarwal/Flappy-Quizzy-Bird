@@ -1,2 +1,2 @@
 # Flappy-Quizzy-Bird
-Game for iOS with a quiz component
+Game for iOS with a quiz component.
