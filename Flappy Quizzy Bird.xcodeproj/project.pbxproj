@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4304972823021EA2004097B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4304972723021EA1004097B8 /* Assets.xcassets */; };
+		B99530331C9B5A9400BC4CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B99530321C9B5A9400BC4CA2 /* main.m */; };
+		B9BEE9A11C95F25F0022E893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE98D1C95F25F0022E893 /* AppDelegate.m */; };
+		B9BEE9A41C95F25F0022E893 /* Catagories.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE9911C95F25F0022E893 /* Catagories.m */; };
+		B9BEE9A51C95F25F0022E893 /* FlappyBird.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE9931C95F25F0022E893 /* FlappyBird.m */; };
+		B9BEE9A61C95F25F0022E893 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE9951C95F25F0022E893 /* Quiz.m */; };
+		B9BEE9A71C95F25F0022E893 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE9971C95F25F0022E893 /* Game.m */; };
+		B9BEE9AB1C95F25F0022E893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE99B1C95F25F0022E893 /* LaunchScreen.xib */; };
+		B9BEE9AC1C95F25F0022E893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BEE99C1C95F25F0022E893 /* Main.storyboard */; };
+		B9BEE9B71C95F4450022E893 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BEE9B61C95F4450022E893 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9BEE96E1C95F05D0022E893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BEE94A1C95F05C0022E893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BEE9511C95F05C0022E893;
+			remoteInfo = FBQUIZ;
+		};
+		B9BEE9791C95F05D0022E893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9BEE94A1C95F05C0022E893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9BEE9511C95F05C0022E893;
+			remoteInfo = FBQUIZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4304972723021EA1004097B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4304972923022BD9004097B8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B99530321C9B5A9400BC4CA2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9BEE9521C95F05C0022E893 /* FBQUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBQUIZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BEE96D1C95F05D0022E893 /* FBQUIZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBQUIZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BEE9731C95F05D0022E893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = FBQUIZTests/Info.plist; sourceTree = SOURCE_ROOT; };
+		B9BEE9781C95F05D0022E893 /* FBQUIZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBQUIZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BEE98C1C95F25F0022E893 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9BEE98D1C95F25F0022E893 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9BEE9901C95F25F0022E893 /* Catagories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Catagories.h; sourceTree = "<group>"; };
+		B9BEE9911C95F25F0022E893 /* Catagories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Catagories.m; sourceTree = "<group>"; };
+		B9BEE9921C95F25F0022E893 /* FlappyBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlappyBird.h; sourceTree = "<group>"; };
+		B9BEE9931C95F25F0022E893 /* FlappyBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlappyBird.m; sourceTree = "<group>"; };
+		B9BEE9941C95F25F0022E893 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		B9BEE9951C95F25F0022E893 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		B9BEE9961C95F25F0022E893 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		B9BEE9971C95F25F0022E893 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		B9BEE99A1C95F25F0022E893 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FBQUIZ/Info.plist; sourceTree = "<group>"; };
+		B9BEE99B1C95F25F0022E893 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = FBQUIZ/LaunchScreen.xib; sourceTree = "<group>"; };
+		B9BEE99C1C95F25F0022E893 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B9BEE9B51C95F43E0022E893 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9BEE9B61C95F4450022E893 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9BEE94F1C95F05C0022E893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE96A1C95F05D0022E893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE9751C95F05D0022E893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9BEE9491C95F05C0022E893 = {
+			isa = PBXGroup;
+			children = (
+				4304972923022BD9004097B8 /* .gitignore */,
+				B9BEE98B1C95F25F0022E893 /* FBQUIZ */,
+				B9E861311C9B551F004C48CB /* Supporting Files */,
+				B9BEE9531C95F05C0022E893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9BEE9531C95F05C0022E893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEE9521C95F05C0022E893 /* FBQUIZ.app */,
+				B9BEE96D1C95F05D0022E893 /* FBQUIZTests.xctest */,
+				B9BEE9781C95F05D0022E893 /* FBQUIZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9BEE98B1C95F25F0022E893 /* FBQUIZ */ = {
+			isa = PBXGroup;
+			children = (
+				4304972723021EA1004097B8 /* Assets.xcassets */,
+				B99530321C9B5A9400BC4CA2 /* main.m */,
+				B9BEE98C1C95F25F0022E893 /* AppDelegate.h */,
+				B9BEE98D1C95F25F0022E893 /* AppDelegate.m */,
+				B9BEE9B51C95F43E0022E893 /* ViewController.h */,
+				B9BEE9B61C95F4450022E893 /* ViewController.m */,
+				B9BEE99C1C95F25F0022E893 /* Main.storyboard */,
+				B9BEE9901C95F25F0022E893 /* Catagories.h */,
+				B9BEE9911C95F25F0022E893 /* Catagories.m */,
+				B9BEE9921C95F25F0022E893 /* FlappyBird.h */,
+				B9BEE9931C95F25F0022E893 /* FlappyBird.m */,
+				B9BEE9941C95F25F0022E893 /* Quiz.h */,
+				B9BEE9951C95F25F0022E893 /* Quiz.m */,
+				B9BEE9961C95F25F0022E893 /* Game.h */,
+				B9BEE9971C95F25F0022E893 /* Game.m */,
+			);
+			path = FBQUIZ;
+			sourceTree = "<group>";
+		};
+		B9E861311C9B551F004C48CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9BEE9731C95F05D0022E893 /* Info.plist */,
+				B9BEE99A1C95F25F0022E893 /* Info.plist */,
+				B9BEE99B1C95F25F0022E893 /* LaunchScreen.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9BEE9511C95F05C0022E893 /* FBQUIZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BEE9811C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZ" */;
+			buildPhases = (
+				B9BEE94E1C95F05C0022E893 /* Sources */,
+				B9BEE94F1C95F05C0022E893 /* Frameworks */,
+				B9BEE9501C95F05C0022E893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBQUIZ;
+			productName = FBQUIZ;
+			productReference = B9BEE9521C95F05C0022E893 /* FBQUIZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9BEE96C1C95F05D0022E893 /* FBQUIZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BEE9841C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZTests" */;
+			buildPhases = (
+				B9BEE9691C95F05D0022E893 /* Sources */,
+				B9BEE96A1C95F05D0022E893 /* Frameworks */,
+				B9BEE96B1C95F05D0022E893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BEE96F1C95F05D0022E893 /* PBXTargetDependency */,
+			);
+			name = FBQUIZTests;
+			productName = FBQUIZTests;
+			productReference = B9BEE96D1C95F05D0022E893 /* FBQUIZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9BEE9771C95F05D0022E893 /* FBQUIZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9BEE9871C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZUITests" */;
+			buildPhases = (
+				B9BEE9741C95F05D0022E893 /* Sources */,
+				B9BEE9751C95F05D0022E893 /* Frameworks */,
+				B9BEE9761C95F05D0022E893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9BEE97A1C95F05D0022E893 /* PBXTargetDependency */,
+			);
+			name = FBQUIZUITests;
+			productName = FBQUIZUITests;
+			productReference = B9BEE9781C95F05D0022E893 /* FBQUIZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9BEE94A1C95F05C0022E893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SushiApps;
+				TargetAttributes = {
+					B9BEE9511C95F05C0022E893 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DEYA9DB5AZ;
+					};
+					B9BEE96C1C95F05D0022E893 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DEYA9DB5AZ;
+						TestTargetID = B9BEE9511C95F05C0022E893;
+					};
+					B9BEE9771C95F05D0022E893 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = DEYA9DB5AZ;
+						TestTargetID = B9BEE9511C95F05C0022E893;
+					};
+				};
+			};
+			buildConfigurationList = B9BEE94D1C95F05C0022E893 /* Build configuration list for PBXProject "Flappy Quizzy Bird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9BEE9491C95F05C0022E893;
+			productRefGroup = B9BEE9531C95F05C0022E893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9BEE9511C95F05C0022E893 /* FBQUIZ */,
+				B9BEE96C1C95F05D0022E893 /* FBQUIZTests */,
+				B9BEE9771C95F05D0022E893 /* FBQUIZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9BEE9501C95F05C0022E893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BEE9AC1C95F25F0022E893 /* Main.storyboard in Resources */,
+				4304972823021EA2004097B8 /* Assets.xcassets in Resources */,
+				B9BEE9AB1C95F25F0022E893 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE96B1C95F05D0022E893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE9761C95F05D0022E893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9BEE94E1C95F05C0022E893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BEE9B71C95F4450022E893 /* ViewController.m in Sources */,
+				B9BEE9A11C95F25F0022E893 /* AppDelegate.m in Sources */,
+				B9BEE9A41C95F25F0022E893 /* Catagories.m in Sources */,
+				B9BEE9A51C95F25F0022E893 /* FlappyBird.m in Sources */,
+				B9BEE9A71C95F25F0022E893 /* Game.m in Sources */,
+				B99530331C9B5A9400BC4CA2 /* main.m in Sources */,
+				B9BEE9A61C95F25F0022E893 /* Quiz.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE9691C95F05D0022E893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BEE9741C95F05D0022E893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9BEE96F1C95F05D0022E893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BEE9511C95F05C0022E893 /* FBQUIZ */;
+			targetProxy = B9BEE96E1C95F05D0022E893 /* PBXContainerItemProxy */;
+		};
+		B9BEE97A1C95F05D0022E893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9BEE9511C95F05C0022E893 /* FBQUIZ */;
+			targetProxy = B9BEE9791C95F05D0022E893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B9BEE97F1C95F05D0022E893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9BEE9801C95F05D0022E893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9BEE9821C95F05D0022E893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBQUIZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B9BEE9831C95F05D0022E893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBQUIZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B9BEE9851C95F05D0022E893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FBQUIZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQUIZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBQUIZ.app/FBQUIZ";
+			};
+			name = Debug;
+		};
+		B9BEE9861C95F05D0022E893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBQUIZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQUIZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBQUIZ.app/FBQUIZ";
+			};
+			name = Release;
+		};
+		B9BEE9881C95F05D0022E893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FBQUIZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQUIZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBQUIZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B9BEE9891C95F05D0022E893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBQUIZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sushi-Games.FBQUIZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBQUIZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9BEE94D1C95F05C0022E893 /* Build configuration list for PBXProject "Flappy Quizzy Bird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BEE97F1C95F05D0022E893 /* Debug */,
+				B9BEE9801C95F05D0022E893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BEE9811C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BEE9821C95F05D0022E893 /* Debug */,
+				B9BEE9831C95F05D0022E893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BEE9841C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BEE9851C95F05D0022E893 /* Debug */,
+				B9BEE9861C95F05D0022E893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BEE9871C95F05D0022E893 /* Build configuration list for PBXNativeTarget "FBQUIZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BEE9881C95F05D0022E893 /* Debug */,
+				B9BEE9891C95F05D0022E893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9BEE94A1C95F05C0022E893 /* Project object */;
+}
